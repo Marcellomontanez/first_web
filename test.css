@@ -1,0 +1,28 @@
+p{
+	
+color: #caffbf;
+
+}
+
+body{
+
+	background-color: MidnightBlue;
+
+}
+
+#topbar{
+
+	min-height: 0px;
+	width:100%;
+	background-color:MidnightBlue;
+
+}
+
+#topbar p{
+
+	font-size: 6vmin;
+	display: inline-block;
+	margin-top:6%:
+	margin-left:10%;
+
+}
