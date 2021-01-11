@@ -24,10 +24,16 @@
 <script>
 functon playGame() {
 
-var favCharacter = prompt("whois you favret mincraft character?");
+	var favCharacter = prompt("whois you favret mincraft character?");
 
-var favMonster = prompt("what is you favret mincraft monster?");
-}
+	var favMonster = prompt("what is you favret mincraft monster?");
+	IF(favCharacter && favMonster){
+	var build = window.prompt(favCharacter+ " is in a new world and its gitting dark! what shuld you build bed, house, or nothing")
+	if(build == "nothing")(
+		window.alert(favCharacter+" spends  ther day playing and he has to run from " +var favMonster+"s at night try agin")
+
+	}
+
 
 function sayHello(){
 	var name = prompt("hay, what kind of mob are you?"):
